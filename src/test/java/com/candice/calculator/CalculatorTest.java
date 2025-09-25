@@ -3,16 +3,12 @@ package com.candice.calculator;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static com.candice.calculator.Calculator.add;
+import static com.candice.calculator.Calculator.divide;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class CalculatorTest {
-    private Calculator calcul;
-
-    @BeforeEach
-    void initialiser_calculator() {
-        calcul = new Calculator();
-    }
-
     @Test
     void add_calcule_la_somme_de_deux_int(){
         //GIVEN
@@ -20,7 +16,7 @@ public class CalculatorTest {
         int apD = 2;
 
         //WHEN
-        int result = calcul.add(apG, apD);
+        int result = add(apG, apD);
 
         //THEN
         assertThat(result).isEqualTo(3);
@@ -33,7 +29,7 @@ public class CalculatorTest {
         int apD = 2;
 
         //WHEN
-        int result = calcul.divide(apG, apD);
+        int result = divide(apG, apD);
 
         //THEN
         assertThat(result).isEqualTo(2);
