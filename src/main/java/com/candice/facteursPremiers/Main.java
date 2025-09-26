@@ -1,4 +1,4 @@
-package com.candice.calculator;
+package com.candice.facteursPremiers;
 
 public class Main {
 
