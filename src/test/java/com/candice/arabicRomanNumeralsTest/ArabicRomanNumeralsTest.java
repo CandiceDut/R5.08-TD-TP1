@@ -26,7 +26,7 @@ public class ArabicRomanNumeralsTest {
         String result = chiffreRomain.convert(chiffre);
 
         //THEN
-        assertThat(result).isEqualTo("negatif non supporte");
+        assertThat(result).isEqualTo("Nombre hors limite");
     }
 
     @Test
@@ -87,7 +87,7 @@ public class ArabicRomanNumeralsTest {
             "4, IV",
             "9, IX",
             "39, XXXIX",
-            "499, ID",
+            "499, CDXCIX",
             "1970, MCMLXX",
             "1971, MCMLXXI",
             "1972, MCMLXXII",
