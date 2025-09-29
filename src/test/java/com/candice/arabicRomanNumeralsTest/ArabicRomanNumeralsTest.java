@@ -28,4 +28,16 @@ public class ArabicRomanNumeralsTest {
         //THEN
         assertThat(result).isEqualTo("negatif non supporte");
     }
+
+    @Test
+    void convert_1_retourne_I(){
+        //GIVEN
+        int chiffre = 1;
+
+        //WHEN
+        String result = chiffreRomain.convert(chiffre);
+
+        //THEN
+        assertThat(result).isEqualTo("I");
+    }
 }
