@@ -5,7 +5,7 @@ public class Personnage {
     private String[] orientations = {"NORD", "EST", "SUD", "OUEST"};
 
     public String tourner(int nbTour){
-        orientationIndex = (orientationIndex + nbTour) % 4;
+        orientationIndex =  nbTour % 4;
         return orientations[orientationIndex];
     }
 }

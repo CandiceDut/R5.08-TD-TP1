@@ -1,6 +1,5 @@
 /*
-1- tourner d'1 quart donne Est
-2- faire un tour complet (4 quart) redonne Nord
+1- faire tourner pour atteindre chaque orientation
  */
 
 package com.candice.personnage;

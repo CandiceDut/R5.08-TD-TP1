@@ -1,4 +1,4 @@
-package com.candice.personnage;
+package com.candice.arabicRomanNumerals;
 
 public class Main {
 
