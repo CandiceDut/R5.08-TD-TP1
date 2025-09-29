@@ -18,7 +18,7 @@ public class ArabicRomanNumeralsTest {
     ArabicRomanNumerals chiffreRomain = new ArabicRomanNumerals();
 
     @Test
-    void convert_negatif_retourne_rien(){
+    void convert_negatif_retourne_erreur(){
         //GIVEN
         int chiffre = -1;
 
