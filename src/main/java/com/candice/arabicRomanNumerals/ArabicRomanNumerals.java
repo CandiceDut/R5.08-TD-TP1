@@ -10,6 +10,13 @@ public class ArabicRomanNumerals {
             return "negatif non supporte";
         }
 
+        for (int i = 0; i < values.length; i++) {
+            while (chiffre >= values[i]) {
+                chiffre -= values[i];
+                romain.append(symbols[i]);
+            }
+        }
+
         return romain.toString();
     }
 }
