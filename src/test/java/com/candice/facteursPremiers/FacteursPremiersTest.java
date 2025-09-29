@@ -1,3 +1,11 @@
+/*
+1- liste vide quand 1 donné
+2-plusieurs diviseurs premier (2, 2, 2) quand 8 donné
+3- retourne lui même quand nombre premier donné
+4- retourne tous diviseurs premiers (2, 2, 2, 2, 7, 11) quand grand nombre donné (1232)
+*/
+
+
 package com.candice.facteursPremiers;
 
 import org.junit.jupiter.api.Test;

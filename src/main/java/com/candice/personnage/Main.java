@@ -1,4 +1,4 @@
-package com.candice.facteursPremiers;
+package com.candice.personnage;
 
 public class Main {
 
